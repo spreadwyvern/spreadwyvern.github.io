@@ -1,5 +1,8 @@
 ---
+permalink: /test/
 layout: single
+title: "test"
+
 ---
 
 
