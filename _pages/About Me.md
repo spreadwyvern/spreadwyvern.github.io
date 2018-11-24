@@ -1,11 +1,11 @@
 ---
 permalink: /about/
 layout: single
-title: "About Me"
+excerpt: "About Me"
 header:
   image: /assets/images/Iceland.jpg
 ---
-# About Me
+# My Track
 
 I think I'm one of the luckiest medical doctors in Taiwan that has several precious and decisive experiences during my medical career.
 
