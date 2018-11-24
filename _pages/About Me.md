@@ -2,7 +2,7 @@
 permalink: /about/
 layout: single
 titile: "About Me"
-show_overlay_excerpt: false
+show_overlay_excerpt = false
 header:
   overlay_image: /assets/images/Iceland.jpg
   caption: "Photo taken in Iceland."
