@@ -3,7 +3,7 @@ permalink: /about/
 layout: single
 excerpt: "About Me"
 header:
-  image: /assets/images/Iceland.jpg
+  overlay_image: /assets/images/Iceland.jpg
 ---
 ## My Track
 ### _I'm a medical doctor, yet instead of practicing clinical medicine, I devoted my knowledge to improve medicine with artificial intelligence._
