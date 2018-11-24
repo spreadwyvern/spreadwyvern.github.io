@@ -5,7 +5,7 @@ excerpt: "About Me"
 header:
   overlay_image: /assets/images/Iceland.jpg
 ---
-## My Track
+
 ### _I'm a medical doctor, yet instead of practicing clinical medicine, I devoted my knowledge to improve medicine with artificial intelligence._
 
 I'm one of the luckiest medical doctors in Taiwan that has several precious and decisive experiences during my medical career.
