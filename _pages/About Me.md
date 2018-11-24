@@ -3,7 +3,7 @@ permalink: /about/
 layout: single
 title: "About Me"
 header:
-  overlay_image: /assets/images/iceland.jpg
+  overlay_image: /assets/images/Iceland.jpg
 ---
 # About Me
 
