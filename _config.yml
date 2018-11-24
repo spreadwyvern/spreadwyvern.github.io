@@ -111,7 +111,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:linweikai@iis.sinica.edu.tw
+      # url: mailto:linweikai@iis.sinica.edu.tw
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -127,7 +127,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
-
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-square"  
+      url: "www.linkedin.com/in/wei-kai-lin-499957130"
 # Site Footer
 footer:
   links:
