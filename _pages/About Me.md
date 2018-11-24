@@ -2,10 +2,9 @@
 permalink: /about/
 layout: single
 titile: "About Me"
-show_overlay_excerpt = false
 header:
-  overlay_image: /assets/images/Iceland.jpg
-  caption: "Photo taken in Iceland."
+  image: /assets/images/Iceland.jpg
+  image_description: "Photo taken in Iceland."
 ---
 
 ## My Track
