@@ -39,8 +39,8 @@ My team consisted of marvelous researchers from different specialties, electrica
 Back in elementary school, I had three years of abundant teaching of art. I cultivated the interest and hobit of art, and carry it all the way while I grew up.
 I enjoy various forms of art, whether its painting with watercolor, image edditing or even try out carpentry.
 
-## Photography
+### Photography
 I've been shooting phots frequently since I first got my DSLR when I entered college. Photography to me is a form of art that I enjoy the most. With the advanced of digital photography, one can either decide to depict the real world as true as possible, describe it as one impressed or go total imaginary without limitations.
 
-## Electronics
+### Electronics
 Unlike most classmates in medical school, I'm always found of tinkering electronics. I enjoyed building desktop systems, tweaking frequency of processor, and solving my friends problems with computers.
