@@ -4,7 +4,7 @@ layout: single
 author_profile: true
 permalink: /about/
 header:
-  image: /assets/images/nz.jpg
+  image: /assets/images/nz_sky.jpg
   image_description: "Photo taken in Iceland."
   caption: "Me jumping out the airplane in Queens Town, New Zealand."
 toc: true
