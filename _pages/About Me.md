@@ -1,7 +1,6 @@
 ---
 title: "About Me"
 permalink: /about/
-layout: single
 header:
   image: /assets/images/Iceland.jpg
   image_description: "Photo taken in Iceland."
