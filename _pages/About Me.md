@@ -4,9 +4,9 @@ layout: single
 author_profile: true
 permalink: /about/
 header:
-  image: /assets/images/Iceland.jpg
+  image: /assets/images/nz.jpg
   image_description: "Photo taken in Iceland."
-  caption: "Unnamed location on the way to Landmannalaugar in Iceland"
+  caption: "Me jumping out the airplane in Queens Town, New Zealand."
 toc: true
 ---
 
