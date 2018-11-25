@@ -31,7 +31,7 @@ Back in Taiwan from a year of deployment, I started to take interest in improvin
 I first lectured myself of data analysis and machine learning with online courses. Then in late 2017 I got a position as a research assistant in Digital Insights Research Lab in the Institute of Information Science, Academia Sinica. 
 
 ### Digital Insights Research Lab
-My team consisted of marvelous researchers from different specialties, electrical engineering, biomedical technology, medicine. Together we work on several projects in implementation of artificial intelligence: machine learning and neural networks in medicine.
+My team consists of marvelous researchers from different specialties, electrical engineering, biomedical technology, medicine. Together we work on several projects in implementation of artificial intelligence: machine learning and neural networks in medicine.
 
 ## Extracurriculum Works
 
