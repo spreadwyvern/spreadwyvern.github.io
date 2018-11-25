@@ -1,5 +1,7 @@
 ---
 title: "About Me"
+layout: single
+author_profile: true
 permalink: /about/
 header:
   image: /assets/images/Iceland.jpg
