@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-permalink: /about/
+# permalink: /about/
 header:
   image: /assets/images/Iceland.jpg
   image_description: "Photo taken in Iceland."
