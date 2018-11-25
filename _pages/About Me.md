@@ -6,6 +6,7 @@ permalink: /about/
 header:
   image: /assets/images/Iceland.jpg
   image_description: "Photo taken in Iceland."
+  caption: "Unnamed location on the way to Landmannalaugar in Iceland"
 toc: true
 ---
 
