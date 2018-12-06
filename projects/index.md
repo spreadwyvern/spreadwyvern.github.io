@@ -12,4 +12,4 @@ toc: true
 ## Links to my projects in DIRL
 
 1. [Kidney Sonography](/projects/kidney/egfr/)
-2. [Early Neurodegenration](/projects/kidney/brain/)
+2. [Early Neurodegenration](/projects/brain/brain)
