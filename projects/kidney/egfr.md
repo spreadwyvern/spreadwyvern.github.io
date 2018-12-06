@@ -1,5 +1,5 @@
 ---
-title: "Days In São Tomé"
+title: "Kidney Function Classification and Prediction Through Ultrasound-based Kidney Imaging: From Deep Learning to Mass Screening of Chronic Kidney Disease "
 layout: single
 author_profile: true
 permalink: /projects/kidney/egfr/
@@ -8,3 +8,4 @@ header:
   caption: "The galaxy above our medical mission's campus."
 toc: true
 ---
+

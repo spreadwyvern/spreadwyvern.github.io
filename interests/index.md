@@ -9,7 +9,7 @@ header:
 toc: true
 ---
 
-I consider myself with a braod variety of interests, here to name a few...
+I consider myself with a broad variety of interests, here to name a few...
 
 # Photography
 [My selected works](/interests/photography/)
