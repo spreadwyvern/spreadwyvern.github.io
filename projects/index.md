@@ -11,5 +11,7 @@ toc: true
 
 ## Links to my projects in DIRL
 
-1. [Kidney Sonography](/projects/kidney/egfr/)
-2. [Early Neurodegenration](/projects/brain/brain)
+1. Prediction of Renal Function with Ultrasound
+	[Link](/projects/kidney/egfr/)
+2. Detection of Early Neurodegeneration with DTI
+	[Link](/projects/brain/brain)
