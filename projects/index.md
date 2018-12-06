@@ -14,4 +14,4 @@ toc: true
 1. Prediction of Renal Function with Ultrasound
 	[Link](/projects/kidney/egfr/)
 2. Detection of Early Neurodegeneration with DTI
-	[Link](/projects/brain/brain)
+	[Link](/projects/brain/brain/)
