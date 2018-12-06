@@ -9,7 +9,7 @@ header:
 toc: true
 
 gallery:
-  <!-- - url: /assets/images/unsplash-gallery-image-1.jpg -->
+  - url: /assets/images/my_photos/highway.jpg
     image_path: /assets/images/my_photos/highway.jpg
     alt: "Highway Junction in Sunset"
     title: "Image 1 title caption"
