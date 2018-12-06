@@ -8,3 +8,7 @@ header:
   caption: "Heatmap of kidney classification model."
 toc: true
 ---
+
+## Links to my projects in DIRL
+
+1. [Kidney Sonography](/projects/kidney/egfr/)
