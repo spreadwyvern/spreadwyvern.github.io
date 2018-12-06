@@ -10,7 +10,7 @@ toc: true
 
 gallery:
   <!-- - url: /assets/images/unsplash-gallery-image-1.jpg -->
-    image_path: /assets/images/my_phots/highway.jpg
+    image_path: /assets/images/my_photos/highway.jpg
     alt: "Highway Junction in Sunset"
     title: "Image 1 title caption"
   - url: /assets/images/my_photos/machupichu.jpg
