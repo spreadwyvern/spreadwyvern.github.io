@@ -23,4 +23,4 @@ gallery:
     title: "Galaxy over Medical Campus in São Tomé"
 ---
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+{% include gallery caption="This is a selected gallery." %}
