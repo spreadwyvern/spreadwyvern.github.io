@@ -10,7 +10,12 @@ toc: true
 ---
 
 ## Where is São Tomé and Príncipe? What did the Medical Mission do there?
-Below is the slides of a little speech I gave to briefly introduce the little island and my works there would be to some of my fellow doctors in Taiwan. Interestingly enough, at the time I gave the speech, I had never set foot on São Tomé before.
+
+![Saturday market in STOP](/assets/images/market.jpg)
+
+I bet most people in Asia and America never heard of the country São Tomé and Príncipe. Below is the slides of a little talk I gave to briefly introduce the little island and what my works there would be before setting out on my journey there. Interestingly enough, at the time I gave the talk, I had never set foot on São Tomé before.
+
+(The talk was meant for the Portuguese class, so it's in Portuguese.)
 
 
 <style>
