@@ -35,6 +35,7 @@ I first lectured myself of data analysis and machine learning with online course
 My team consists of marvelous researchers from different specialties, electrical engineering, biomedical technology, medicine. Together we work on several projects in implementation of artificial intelligence: machine learning and neural networks in medicine.
 
 ## Extracurricular Activity
+see more in ["Personal Interests"](/interests/)
 
 ### Art
 Back in elementary school, I had three years of abundant teaching of art. I cultivated the interest and hobbit of art, and carry it all the way while I grew up.
