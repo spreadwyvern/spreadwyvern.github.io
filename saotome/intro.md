@@ -2,7 +2,7 @@
 title: "Brief Introduction of São Tomé and Príncipe"
 layout: single
 author_profile: true
-permalink: /projects/saotome/intro/
+permalink: /saotome/intro/
 header:
   image: /assets/images/medical_mission_s.jpg
   <!-- caption: "The galaxy above our medical mission's campus." -->
