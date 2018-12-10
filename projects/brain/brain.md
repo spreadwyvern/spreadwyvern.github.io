@@ -5,7 +5,7 @@ author_profile: true
 permalink: /projects/brain/brain/
 header:
   image: /assets/images/kidney_model_design.png
-  <!-- caption: "The galaxy above our medical mission's campus." -->
+  caption: ""
 toc: true
 ---
 

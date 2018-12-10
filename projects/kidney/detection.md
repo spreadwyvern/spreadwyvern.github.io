@@ -5,7 +5,7 @@ author_profile: true
 permalink: /projects/kidney/detection/
 header:
   image: /assets/images/kidney_model_design.png
-  <!-- caption: "The galaxy above our medical mission's campus." -->
+  caption: ""
 toc: true
 ---
 ## Real Time Detection of Kidney in Ultrasound
