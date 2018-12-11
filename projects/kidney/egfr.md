@@ -24,4 +24,5 @@ Prediction of kidney function and chronic kidney disease (CKD) through kidney ul
 </div>
 
 ### Links
-[Link to the slides about the project.](https://docs.google.com/presentation/d/12E7BDb0iw8yRu9tH8eVg-oo3E04Rx9qVv3PDxhAUwTA/edit?usp=sharing)
+- [Link to the slides about the project.](https://docs.google.com/presentation/d/12E7BDb0iw8yRu9tH8eVg-oo3E04Rx9qVv3PDxhAUwTA/edit?usp=sharing)
+- [Github Repository](https://github.com/spreadwyvern/kidney-sonography)
