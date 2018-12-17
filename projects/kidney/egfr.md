@@ -51,7 +51,7 @@ Total images: 37,696 (acquired after 2014)
 ### Preprocessing
 There are plenty of obstacles in obataining a clean kidney ultrasound, the surrouding organs like liver, intestines and spleen, or the adjacent tissues such as fat. Moreover, most ultrasound images contained annotations that are hardcoded to the images. These could pose as noises, or "distractions" to the deep learning model.
 To cope with these noises, we developed a "tailored crop" cropping process, based on two markers annotating the kidney length. <!-- We first identified the positions of the two markers (x_1,y_1) and (x_2,y_2) and calculated their distance and middle point, denoted as d and (x_c,y_c), respectively. Next, we cropped the square region centered at (x_c,y_c) with a length d. To unify the size of the input images, we resized the cropped images to 224 × 224 pixels. -->
-![tailored crop](/assets/images/kidney/tailor.jpg)
+![tailored crop](/assets/images/kidney/tailor.png)
 
 
 
@@ -63,12 +63,22 @@ To cope with these noises, we developed a "tailored crop" cropping process, base
 
 ### Performance
 #### For prediction of eGFR
-(/assets/images/kidney/result.png)
+![](/assets/images/kidney/result.png)
 #### For classification of CKD stage
-(/assets/images/kidney/cfm.png)
+<p float="left">
+  <img src="/assets/images/kidney/cfm.png" width="100" />
+  <img src="/assets/images/kidney/cfm_table.png" width="100" /> 
+</p>
+
+<p float="left">
+  <img src="/assets/images/kidney/auroc.png" width="100" />
+  <img src="/assets/images/kidney/auroc_table.png" width="100" /> 
+</p>
+
+<!-- ![](/assets/images/kidney/cfm.png)
 ![confusion matrix](/assets/images/kidney/cfm.png "confusion matrix") ![classification result](/assets/images/kidney/cfm_table.png "classification result")
 ![AUROC](/assets/images/kidney/auroc.png "confusion matrix") ![classification result](/assets/images/kidney/auroc_table.png "classification result")
-
+ -->
 ### Conclusion
 Our model is the first fundamental step toward realizing the potential of transforming kidney ultrasound imaging into an effective, real-time, distant screening tool. AI-GFR estimation offers the possibility of non-invasive assessment of kidney function, a key goal of AI-powered functional automation in clinical practice. 
 
