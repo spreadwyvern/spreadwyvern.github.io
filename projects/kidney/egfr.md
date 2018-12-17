@@ -16,11 +16,13 @@ Prediction of kidney function and chronic kidney disease (CKD) through kidney ul
 Kidney ultrasound imaging is widely used in clinical applications, such as excluding reversible causes of acute kidney injury such as urinary obstruction and identification of irreversible chronic kidney disease(CKD) that precludes unnecessary workup such as kidney biopsy.
 Ultrasound comes with many advantages, it's non-invasive, relatively lower in cost, and has wider availability. Thus, prediction of kidney function and chronic kidney disease (CKD) through kidney ultrasound imaging has long been considered desirable in clinical practice. However, the high subjective variability in image acquisition and interpretation makes it difficult to translate experience-based prediction into standardized practice, such as invasive serum creatinine measurement.
 Generally in clinical practice, some aspects of kidney ultrasounds are used as markers for evaluation of severity of kidney injuries. Kidney length, volume, cortical thickness, and echogenicity. There are a few relative studies in evaluation of renal function with ultrasounds. Yet the results were suboptimal or based on small samples.
+
 |markers	|correlation by prior studies	|notes
 ---|---|---
 length|0.36|
 volume|0.4-0.49|
 cortical thickness|0.852|only 42 samples
+
 Yapark et al, 2017 developed a CKD scoring system that integrate three ultrasonographic parameters: kidney length, parenchymal thickness, and echogenicity, but the correlation remain at 0.587
 
 ### Our Goal
@@ -35,23 +37,23 @@ eGFR was measured within 4 weeks before or after the day of the kidney sonograph
 
 ### Dataset and Data Cleaning
 Total images: 37,696 (acquired after 2014)
-(/assets/images/kidney/data.jpg)
 
-### Preprocessing
-There are plenty of obstacles in obataining a clean kidney ultrasound, the surrouding organs like liver, intestines and spleen, or the adjacent tissues such as fat. Moreover, most ultrasound images contained annotations that are hardcoded to the images. These could pose as noises, or "distractions" to the deep learning model.
-To cope with these noises, we developed a "tailored crop" cropping process, based on two markers annotating the kidney length. <!-- We first identified the positions of the two markers (x_1,y_1) and (x_2,y_2) and calculated their distance and middle point, denoted as d and (x_c,y_c), respectively. Next, we cropped the square region centered at (x_c,y_c) with a length d. To unify the size of the input images, we resized the cropped images to 224 × 224 pixels. -->
-(/assets/images/kidney/tailor.jpg)
-
-### Data Summary
 - Training set:
- - Around 1106 patients
- - Around 3500 images
+  - Around 1106 patients
+  - Around 3500 images
 - Validation set:
   - Around 180 patients
   - Around 180 images (Only selected the image with the clearest kidney from each patient)
 - Testing set:
- - 160 patients
- - 160 images (Only selected the image with the clearest kidney from each patient)
+  - 160 patients
+  - 160 images (Only selected the image with the clearest kidney from each patient)
+
+### Preprocessing
+There are plenty of obstacles in obataining a clean kidney ultrasound, the surrouding organs like liver, intestines and spleen, or the adjacent tissues such as fat. Moreover, most ultrasound images contained annotations that are hardcoded to the images. These could pose as noises, or "distractions" to the deep learning model.
+To cope with these noises, we developed a "tailored crop" cropping process, based on two markers annotating the kidney length. <!-- We first identified the positions of the two markers (x_1,y_1) and (x_2,y_2) and calculated their distance and middle point, denoted as d and (x_c,y_c), respectively. Next, we cropped the square region centered at (x_c,y_c) with a length d. To unify the size of the input images, we resized the cropped images to 224 × 224 pixels. -->
+![tailored crop](/assets/images/kidney/tailor.jpg)
+
+
 
 
 ### Model Architecture
