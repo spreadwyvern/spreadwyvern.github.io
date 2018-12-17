@@ -66,13 +66,13 @@ To cope with these noises, we developed a "tailored crop" cropping process, base
 ![](/assets/images/kidney/result.png)
 #### For classification of CKD stage
 <p float="left">
-  <img src="/assets/images/kidney/cfm.png" width="100" />
-  <img src="/assets/images/kidney/cfm_table.png" width="100" /> 
+  <img src="/assets/images/kidney/cfm.png" width="200" />
+  <img src="/assets/images/kidney/cfm_table.png" width="200" /> 
 </p>
 
 <p float="left">
-  <img src="/assets/images/kidney/auroc.png" width="100" />
-  <img src="/assets/images/kidney/auroc_table.png" width="100" /> 
+  <img src="/assets/images/kidney/auroc.png" width="200" />
+  <img src="/assets/images/kidney/auroc_table.png" width="200" /> 
 </p>
 
 <!-- ![](/assets/images/kidney/cfm.png)
