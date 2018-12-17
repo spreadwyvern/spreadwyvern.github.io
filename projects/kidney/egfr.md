@@ -1,7 +1,7 @@
 ---
 title: "Towards the Automation of Kidney Function Classification and Prediction Through Ultrasound-based Kidney Imaging Using Deep Learning"
 layout: single
-author_profile: false
+author_profile: true
 permalink: /projects/kidney/egfr/
 header:
   image: /assets/images/kidney_model_design.png
