@@ -6,7 +6,7 @@ permalink: /projects/kidney/egfr/
 header:
   image: /assets/images/kidney_model_design.png
   caption: "The model for predicting kidney function."
-toc: true
+toc: false
 ---
 <!-- 
 ## Abstract
