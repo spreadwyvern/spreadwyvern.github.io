@@ -58,7 +58,7 @@ We performed denoicing and data augmentaions
    - Non-local means
    - None
 - Augmentation
-   - random rotation: [-40, 40] degrees
+   - random rotation: [-25, 25] degrees
    - random shift: [-5, 5] pixels
 
 ## Our 3D CNN model
@@ -67,10 +67,14 @@ We performed denoicing and data augmentaions
  - Instance Normalization (IN) : normalize based on individual instances instead of the batch as a whole https://arxiv.org/abs/1607.08022
  - A block of convolution: Conv (1X1) + IN + ReLU + Conv (3X3) + IN + ReLU + Conv (1X1) + IN + ReLU 
 
+Comparison of our model architecture with Jame H Cole et. al.
+![model comparison](/assets/images/neuro/result_table.png)
+
 ## Results
-![](/assets/images/neuro/result_table.png)
+The best result was achieved with a model with 4 3D convolution blocks. Donoising with non-local means shown best overall performance in our experiment.
 ![](/assets/images/neuro/result.png)
-![comparisons](/assets/images/neuro/comparison/png)
+Comparison of our model's performance with related researches.
+![comparisons](/assets/images/neuro/comparison.png)
 
 ## Slides
 
