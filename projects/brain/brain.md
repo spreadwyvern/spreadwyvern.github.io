@@ -3,9 +3,9 @@ title: "Detection of Early Neurodegeneration with DTI"
 layout: single
 author_profile: true
 permalink: /projects/brain/brain/
-header:
+<!-- header:
   image: /assets/images/kidney_model_design.png
-  caption: ""
+  caption: "" -->
 toc: true
 ---
 
