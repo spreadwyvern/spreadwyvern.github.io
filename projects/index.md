@@ -10,7 +10,7 @@ toc: true
 ---
 
 
-[Data Insights Research Lab](/assets/images/dirl.png)
+![Data Insights Research Lab](/assets/images/dirl.png)
 ## Links to my projects in DIRL
 
 1. Prediction of Renal Function with Ultrasound
