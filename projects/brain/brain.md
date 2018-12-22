@@ -32,10 +32,10 @@ Conventional method envolves using Statistical Parametric Mapping (SPM) structur
 
 ## Related Works Using Convolutional Neural Networks
 - Age estimation from brain MRI images using deep learning
-   - Tzu-Wei Huang et. al. http://www.cs.nthu.edu.tw/~htchen/aemri/aemri.pdf
+   - [Tzu-Wei Huang et. al.](http://www.cs.nthu.edu.tw/~htchen/aemri/aemri.pdf)
    - 2017 IEEE 14th International Symposium on Biomedical Imaging (ISBI)
 - Predicting brain age with deep learning from raw imaging data results in a reliable and heritable biomarker
-   - James H Cole et. al. https://arxiv.org/abs/1612.02572 (2016)
+   - [James H Cole et. al. 2016](https://arxiv.org/abs/1612.02572)
    - Propose a 3D convolutional neural network to predict brain age
    - Study population: 2001 health individuals
 
@@ -62,9 +62,10 @@ We performed denoicing and data augmentaions
    - random shift: [-5, 5] pixels
 
 ## Our 3D CNN model
-- To reduce number of network parameters, we use deeper bottleneck architecture proposed by He et. al. (https://arxiv.org/abs/1512.03385) 
+- To reduce number of network parameters, we use deeper bottleneck architecture proposed by He et. al.
+<https://arxiv.org/abs/1512.03385 >
 ![bottleneck architecture](/assets/images/neuro/structure.png)
- - Instance Normalization (IN) : normalize based on individual instances instead of the batch as a whole https://arxiv.org/abs/1607.08022
+ - Instance Normalization (IN) : normalize based on individual instances instead of the batch as a whole <https://arxiv.org/abs/1607.08022>
  - A block of convolution: Conv (1X1) + IN + ReLU + Conv (3X3) + IN + ReLU + Conv (1X1) + IN + ReLU 
 
 Comparison of our model architecture with Jame H Cole et. al.
@@ -72,7 +73,9 @@ Comparison of our model architecture with Jame H Cole et. al.
 
 ## Results
 The best result was achieved with a model with 4 3D convolution blocks. Donoising with non-local means shown best overall performance in our experiment.
+
 ![](/assets/images/neuro/result.png)
+
 Comparison of our model's performance with related researches.
 ![comparisons](/assets/images/neuro/comparison.png)
 
