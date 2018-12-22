@@ -13,9 +13,10 @@ toc: true
 [![Data Insights Research Lab](/assets/images/dirl.png)](http://dirl.iis.sinica.edu.tw/)
 
 <p float="left">
-  <a href="https://www.sinica.edu.tw/en"><img src="/assets/images/as.png" width="100" />
-  <a href="http://iis.sinica.edu.tw/"><img src="/assets/images/iis.png" width="100" />
+  <a href="https://www.sinica.edu.tw/en"><img src="/assets/images/as.png" width="100" /></a>>
+  <a href="http://iis.sinica.edu.tw/"><img src="/assets/images/iis.png" width="100" /></a>>
 </p>
+
 
 ## Links to my projects in DIRL
 
