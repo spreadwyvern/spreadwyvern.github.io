@@ -81,7 +81,7 @@ Comparison of our model's performance with related researches.
 
 ## Limitations
 1. Limited data: The Cam-CAN dataset only contains 558 samples, with more data we can further trained a mroe acurate model
-2. Relatively low resolution: compared with other sequences of brain MRI, DTI have lower resolutions, which might restrained the CNN model from obtaining more information. Yet this problem is oriented from the difference in imaging mechanism between DTI and other brain MRI sequences, with further advancement of MRI technology we may be able to obtain DTI with higher resolution in the future.
+2. Relatively low resolution: compared with other sequences of brain MRI, DTI has lower resolutions, which might restrained the CNN model from obtaining more information. Yet this problem is oriented from the difference in imaging mechanism between DTI and other brain MRI sequences, with further advancement of MRI technology we may be able to obtain DTI with higher resolution in the future.
 
 ## Conclusion
 - We propose a 3D convolutional neural network, which applies on diffusion tensor images, to accurately predict ages of healthy subjects (MAE=4.29)
