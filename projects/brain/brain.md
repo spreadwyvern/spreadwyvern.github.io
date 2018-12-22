@@ -62,8 +62,7 @@ We performed denoicing and data augmentaions
    - random shift: [-5, 5] pixels
 
 ## Our 3D CNN model
-- To reduce number of network parameters, we use deeper bottleneck architecture proposed by He et. al.
-<https://arxiv.org/abs/1512.03385 >
+- To reduce number of network parameters, we use deeper bottleneck architecture proposed by He et. al. <https://arxiv.org/abs/1512.03385 >
 ![bottleneck architecture](/assets/images/neuro/structure.png)
  - Instance Normalization (IN) : normalize based on individual instances instead of the batch as a whole <https://arxiv.org/abs/1607.08022>
  - A block of convolution: Conv (1X1) + IN + ReLU + Conv (3X3) + IN + ReLU + Conv (1X1) + IN + ReLU 
@@ -78,6 +77,16 @@ The best result was achieved with a model with 4 3D convolution blocks. Donoisin
 
 Comparison of our model's performance with related researches.
 ![comparisons](/assets/images/neuro/comparison.png)
+
+
+## Limitations
+1. Limited data: The Cam-CAN dataset only contains 558 samples, with more data we can further trained a mroe acurate model
+2. Relatively low resolution: compared with other sequences of brain MRI, DTI have lower resolutions, which might restrained the CNN model from obtaining more information. Yet this problem is oriented from the difference in imaging mechanism between DTI and other brain MRI sequences, with further advancement of MRI technology we may be able to obtain DTI with higher resolution in the future.
+
+## Conclusion
+- We propose a 3D convolutional neural network, which applies on diffusion tensor images, to accurately predict ages of healthy subjects (MAE=4.29)
+- The trained model can be used to detect early-stage neurodegeneration
+  - If brain-predicted age greater than chronological age, the ‘added’ age can be quantified as the difference between chronological age and brain-predicted age
 
 ## Slides
 
