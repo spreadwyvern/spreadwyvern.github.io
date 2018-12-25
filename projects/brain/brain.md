@@ -88,6 +88,9 @@ Comparison of our model's performance with related researches.
 - The trained model can be used to detect early-stage neurodegeneration
   - If brain-predicted age greater than chronological age, the ‘added’ age can be quantified as the difference between chronological age and brain-predicted age
 
+## Prediction model
+The trained prediction model is provided on GitHub repository. [**link**](https://github.com/spreadwyvern/neurodegeneration)
+
 ## Slides
 
 <style>
