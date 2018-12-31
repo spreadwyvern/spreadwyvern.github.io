@@ -22,4 +22,4 @@ toc: true
 1. [Prediction of Renal Function with Ultrasound](/projects/kidney/egfr/)
 2. [Real time detection of kidney in sonography](/projects/kidney/detection)
 3. [Detection of Early Neurodegeneration with DTI](/projects/brain/brain/)
-4. [A Machine Learning Approach for Predicting Urine Output](/projects/spesis/fluid)
+4. [A Machine Learning Approach for Predicting Urine Output After Fluid Administration](/projects/spesis/fluid)
