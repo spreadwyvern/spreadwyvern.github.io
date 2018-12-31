@@ -19,9 +19,7 @@ toc: true
   <a href="http://iis.sinica.edu.tw/"><img src="/assets/images/iis.png" width="100" /></a>
 </p>
 
-1. Prediction of Renal Function with Ultrasound
-	[Link](/projects/kidney/egfr/)
-2. Real time detection of kidney in sonography
-	[Link](/projects/kidney/detection)
-3. Detection of Early Neurodegeneration with DTI
-	[Link](/projects/brain/brain/)
+1. [Prediction of Renal Function with Ultrasound](/projects/kidney/egfr/)
+2. [Real time detection of kidney in sonography](/projects/kidney/detection)
+3. [Detection of Early Neurodegeneration with DTI](/projects/brain/brain/)
+4. [A Machine Learning Approach for Predicting Urine Output](/projects/spesis/fluid)
