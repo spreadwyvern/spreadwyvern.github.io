@@ -9,7 +9,7 @@ header:
 toc: true
 ---
 ## Introduction
-- Sepsis, is global health problem with high mortality and morbidity. 
+- Sepsis, is a global health problem with high mortality and morbidity. 
 - Currently intravenous fluid administration has been recommended as the first-line resuscitative therapy for septic shock patients. 
 - However, excessive fluid administration could lead to complications like pulmonary edema, renal failure and impaired bowel function, and has been shown to be associated with increased mortality [1].
 
