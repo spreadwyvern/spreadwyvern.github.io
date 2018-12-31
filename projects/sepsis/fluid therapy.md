@@ -4,7 +4,7 @@ layout: single
 author_profile: true
 permalink: /projects/sepsis/fluid/
 header:
-  image: /assets/images/iceland.jpg
+  image: /assets/images/Iceland.jpg
   caption: ""
 toc: true
 ---
