@@ -5,7 +5,7 @@ author_profile: true
 permalink: /projects/sepsis/fluid/
 header:
   image: /assets/images/iceland.jpg
-  caption: "The model for predicting kidney function."
+  caption: ""
 toc: true
 ---
 ## Introduction
