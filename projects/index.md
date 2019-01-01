@@ -6,7 +6,7 @@ permalink: /projects/
 header:
   image: /assets/images/project_banner.png
   caption: ""
-toc: true
+<!-- toc: true -->
 ---
 
 
