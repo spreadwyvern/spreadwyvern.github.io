@@ -5,7 +5,7 @@ author_profile: true
 permalink: /projects/
 header:
   image: /assets/images/project_banner.png
-  <!-- caption: "Heatmap of kidney classification model." -->
+  caption: ""
 toc: true
 ---
 
