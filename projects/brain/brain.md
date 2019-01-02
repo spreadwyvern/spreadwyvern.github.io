@@ -4,7 +4,7 @@ layout: single
 author_profile: true
 permalink: /projects/brain/brain/
 header:
-  image: /assets/images/neuro_project.png
+  image: /assets/images/project_banner.png
   caption: ""
 toc: true
 ---
