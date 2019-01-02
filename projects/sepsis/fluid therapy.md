@@ -91,7 +91,7 @@ Top ranked features were selected into different subsets ranging from top 15, 10
 1. Retrospective clinical database
 external validation with other clinical dataset would be needed to insure the clinical validity of this model.
 2. The clinical impact of this model on patients’ outcome require further clinical evaluation.
-3. We used 4 hours as our , which might be too narrow for some septic patients to generate clinically evident urine output increment.
+3. We used 4 hours as our event window, which might be too narrow for some septic patients to generate clinically evident urine output increment.
 
 ## Reference
 1. Sirvent J-M et al. Fluid balance in sepsis and septic shock as a determining factor of mortality. The American journal of emergency medicine. 2015
