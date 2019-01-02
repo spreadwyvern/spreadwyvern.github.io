@@ -33,7 +33,7 @@ Data were included from up to 24 hours preceding the diagnosis of sepsis and unt
 5. amount of urine output
 
 ### Dynamic Change of a Patient’s Condition
-The dynamic change of a patient’s condition is an important clinical feature event [3], to bring this concept into practice, we extracted **features acquired during the corresponding time window** *(Fc)* as well as **the features of precedent event** *(Fp)*. 
+The dynamic change of a patient’s condition is an important clinical feature event [3], to bring this concept into practice, we extracted **features acquired during the corresponding time window** *(Fc)*, as well as **the features of precedent event** *(Fp)*. 
 
 ### Feature Sets
 ![feature sets](/assets/images/sepsis/features.png)
@@ -44,28 +44,20 @@ We considered two outcome measurements regarding patients' fluid status.
 2. Oliguria: defined as the amount of UO is less than 0.5 ml/kg per hour.
 
 ## Model Architecture and Interpretability
-- The model of choice was based on gradient tree boosting algorithm.
-  - eXtreme Gradient Boosting (XGBoost)[4].
-- A tree based algorithm is superior in interpretability to other machine learning algorithms
-  - Provides information of which features are more decisive
-    - Assist doctors in better understanding of patients’ condition
-    - Provide more accurate treatment plan. 
+A tree based algorithm is superior in interpretability to other machine learning algorithms, it provides information of which features are more decisive, this in turn can assist doctors in better understanding of patients’ condition and deciding a more accurate treatment plan. Hense, our model of choice is based on gradient tree boosting algorithm - eXtreme Gradient Boosting (XGBoost)[4].
 - Advantages of XGBoost
   - Copes better with sparsity of data. 
   - Surpasses traditional tree-based models by introducing regularization to avoid overfitting
   - Utilizing gradient boosting to ensemble multiple tree models for better performance and also mitigates biases
 
 ## Model Training and Features Selection
-- We trained XGBoost model using different features sets.
-  - Fc and Fp
-  - Fc alone
-- The importance of each features were ranked.
-Top ranked features were selected into different subsets ranging from top 15, 10, to 5 features. Individual models were trained on these subsets respectively.
+We trained XGBoost model using different features sets.
+ - Fc and Fp
+ - Fc alone
+The importance of each features were ranked. Top ranked features were selected into different subsets ranging from top 15, 10, to 5 features. Individual models were trained on these subsets respectively.
 
 ## Result
-- Regarding the attributes for training the models, adding the features of precedent event (Fp) slightly improved the performance of models. 
-- The more attributes used, the more accurate the models could be.
-  - Models only using the top 5 ranked features could still reach an optimal performance with AUC of 0.84 and 0.86 respectively.
+Regarding the attributes for training the models, adding the features of precedent event (Fp) slightly improved the performance of models. The more attributes used, the more accurate the models could be. Yet models using only the top 5 ranked features could still reach an optimal performance with AUC of 0.84 and 0.86 respectively.
 
 ![uo result](/assets/images/sepsis/result_uo.png)
 
@@ -77,14 +69,12 @@ Top ranked features were selected into different subsets ranging from top 15, 10
 ## Conclusion
 - It is suggested that UO may be used to guide fluid resuscitation.
 - We proposed an machine learning method in predicting septic patients’ responses to fluid resuscitation therapy, which yielded moderately accurate results with AUC up to 0.86. 
-- We exploited the concept of continuity of disease course
-  - We added the features of precedent event and the variance of fluid status. 
-  - Models trained on the combined dataset demonstrated 
-  - Further concludes the idea that clinical conditions are better measured with dynamic indicators.
+- We exploited the concept of continuity of disease course by adding the features of precedent event. 
+  - Models trained on the combined dataset demonstrated better result, which further concludes the idea that clinical conditions are better measured with dynamic indicators.
 - Model using less features still could yield similar performance, demonstrating the clinical applicability of these models in clinical settings with limited data.
 
 ## Limitations
-1. Retrospective clinical database
+1. Retrospective clinical database: 
 external validation with other clinical dataset would be needed to insure the clinical validity of this model.
 2. The clinical impact of this model on patients’ outcome require further clinical evaluation.
 3. We used 4 hours as our event window, which might be too narrow for some septic patients to generate clinically evident urine output increment.
