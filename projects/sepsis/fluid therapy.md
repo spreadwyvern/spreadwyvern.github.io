@@ -54,6 +54,7 @@ A tree based algorithm is superior in interpretability to other machine learning
 We trained XGBoost model using different features sets.
  - Fc and Fp
  - Fc alone
+
 The importance of each features were ranked. Top ranked features were selected into different subsets ranging from top 15, 10, to 5 features. Individual models were trained on these subsets respectively.
 
 ## Result
