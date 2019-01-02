@@ -19,22 +19,20 @@ About 50% of patients with sepsis are actually not responsive to intravenous flu
 Apply a machine learning method to predict whether a septic patient would have decreased UO or oliguria after fluid administration.
 
 ## Data
-Our data were from The Multiparameter Intelligent Monitoring in Intensive Care (MIMIC) III database (v1.4) [11]
-- Sepsis was defined as a suspected infection (prescription of antibiotics and sampling of bodily fluids for microbiological culture) combined with evidence of organ dysfunction, defined by a Sequential Organ 
-- Failure Assessment (SOFA) score greater or equal to 2.
+Our data is from The Multiparameter Intelligent Monitoring in Intensive Care (MIMIC) III database (v1.4) [11]. Sepsis was defined as a suspected infection (prescription of antibiotics and sampling of bodily fluids for microbiological culture) combined with evidence of organ dysfunction, defined by a Sequential Organ Failure Assessment (SOFA) score greater or equal to 2.
 - 19,275 patients were included, totally 232,929 events. 
   - 135,735 events (58.27%) were labeled as having decreased UO
   - 89,699 events (38.51%) were labeled as oliguria.
 
 ### Preprocess
-- Data were included from up to 24 hours preceding the diagnosis of sepsis and until 48 hours following the onset of sepsis
-- For each patient, clinical data are aggregated into windows of 4 hours as an event.
-- From each event, we extracted patient features including:
-  - Demographics
-  - vital signs
-  - laboratory results
-  - amount of fluid administration
-  - amount of UOs. 
+Data were included from up to 24 hours preceding the diagnosis of sepsis and until 48 hours following the onset of sepsis. For each patient, clinical data are aggregated into windows of 4 hours as an event. From each event, we extracted patient features as follow:
+  | Features|
+  ___
+  |Demographics
+  |vital signs
+  |laboratory results
+  |amount of fluid administration
+  |amount of UOs 
 
 ### Dynamic Change of a Patient’s Condition
 - The dynamic change of a patient’s condition is an important clinical feature event [3], to bring this concept into practice, we extracted **features acquired during the corresponding time window** *(Fc)* as well as **the features of precedent event** *(Fp)*. 
