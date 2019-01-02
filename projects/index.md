@@ -14,10 +14,13 @@ toc: false
 
 [![Data Insights Research Lab](/assets/images/dirl.png)](http://dirl.iis.sinica.edu.tw/)
 
-<p float="left">
+<a href="https://www.sinica.edu.tw/en"><img src="/assets/images/as.png" width="100" /></a> Academia Sinica
+  
+
+<!-- <p float="left">
   <a href="https://www.sinica.edu.tw/en"><img src="/assets/images/as.png" width="100" /></a>
   <a href="http://iis.sinica.edu.tw/"><img src="/assets/images/iis.png" width="100" /></a>
-</p>
+</p> -->
 
 1. [Prediction of Renal Function with Ultrasound](/projects/kidney/egfr/)
 2. [Real time detection of kidney in sonography](/projects/kidney/detection)
