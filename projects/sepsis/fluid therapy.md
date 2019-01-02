@@ -13,7 +13,7 @@ Sepsis is a global health problem with high mortality and morbidity. Currently i
 
 ### Fluid Non-responders and Urine Output
 About 50% of patients with sepsis are actually not responsive to intravenous fluid resuscitation [2]. These “fluid non-responders” are at risk of being harmed by excessive fluid administration.
-- Urine output is an important clinical parameter when assessing fluid balance, determining treatment strategy and predicting outcome. 
+- Urine output (UO) is an important clinical parameter when assessing fluid balance, determining treatment strategy and predicting outcome. 
 
 ## Our Goal
 Apply a machine learning method to predict whether a septic patient would have decreased UO or oliguria after fluid administration.
