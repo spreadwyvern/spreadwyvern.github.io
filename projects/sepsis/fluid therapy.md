@@ -9,14 +9,14 @@ header:
 toc: true
 ---
 ## Introduction
-- Sepsis, is a global health problem with high mortality and morbidity. 
-- Currently intravenous fluid administration is recommended as the first-line resuscitative therapy for septic shock patients. 
-- However, excessive fluid administration could lead to complications like pulmonary edema, renal failure and impaired bowel function, and has been shown to be associated with increased mortality [1].
+Sepsis is a global health problem with high mortality and morbidity. Currently intravenous fluid administration is recommended as the first-line resuscitative therapy for septic shock patients. However, excessive fluid administration could lead to complications like pulmonary edema, renal failure and impaired bowel function, and has been shown to be associated with increased mortality [1].
 
 ### Fluid Non-responders and Urine Output
-- About 50% of patients with sepsis are actually not responsive to intravenous fluid resuscitation [2]. These “fluid non-responders” are at risk of being harmed by excessive fluid administration.
+About 50% of patients with sepsis are actually not responsive to intravenous fluid resuscitation [2]. These “fluid non-responders” are at risk of being harmed by excessive fluid administration.
 - Urine output is an important clinical parameter when assessing fluid balance, determining treatment strategy and predicting outcome. 
-- We applied a machine learning method to predict whether a septic patient would have decreased UO or oliguria after fluid administration
+
+## Our Goal
+Apply a machine learning method to predict whether a septic patient would have decreased UO or oliguria after fluid administration.
 
 ## Data
 Our data were from The Multiparameter Intelligent Monitoring in Intensive Care (MIMIC) III database (v1.4) [11]
