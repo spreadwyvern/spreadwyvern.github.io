@@ -37,17 +37,15 @@ Our data were from The Multiparameter Intelligent Monitoring in Intensive Care (
   - amount of UOs. 
 
 ### Dynamic Change of a Patient’s Condition
-- The dynamic change of a patient’s condition is an important clinical feature event[3]
-- We integrated features acquired during the corresponding time window (Fc)
-- Also included the features of precedent event (Fp). 
+- The dynamic change of a patient’s condition is an important clinical feature event [3], to bring this concept into practice, we extracted **features acquired during the corresponding time window** *(Fc)* as well as **the features of precedent event** *(Fp)*. 
 
 ### Feature Sets
 ![feature sets](/assets/images/sepsis/features.png)
 
 ## Outcome Measurements
-- Decreased amount of UO compared to that in the previous time window. 
-- Oliguria
-  - defined as the amount of UO is less than 0.5 ml/kg per hour.
+We considered two outcome measurements regarding patients' fluid status.
+1. Decreased amount of UO compared to that in the previous time window. 
+2. Oliguria: defined as the amount of UO is less than 0.5 ml/kg per hour.
 
 ## Model Architecture and Interpretability
 - The model of choice was based on gradient tree boosting algorithm.
@@ -57,7 +55,7 @@ Our data were from The Multiparameter Intelligent Monitoring in Intensive Care (
     - Assist doctors in better understanding of patients’ condition
     - Provide more accurate treatment plan. 
 - Advantages of XGBoost
-  - Better cope with sparsity of data. 
+  - Copes better with sparsity of data. 
   - Surpasses traditional tree-based models by introducing regularization to avoid overfitting
   - Utilizing gradient boosting to ensemble multiple tree models for better performance and also mitigates biases
 
