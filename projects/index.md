@@ -13,11 +13,12 @@ toc: false
 ## Links to my projects in DIRL, Institute of Information Science, Academia Sinica
 
 [![Data Insights Research Lab](/assets/images/dirl.png)](http://dirl.iis.sinica.edu.tw/)
-
-<a href="https://www.sinica.edu.tw/en"><img src="/assets/images/as.png" width="100" /></a> Academia Sinica
+<p align="left">
+	<a href="https://www.sinica.edu.tw/en"><img src="/assets/images/as.png" width="100" /></a> Academia Sinica
+</p>
   
-
-<!-- <p float="left">
+<!-- 
+<p float="left">
   <a href="https://www.sinica.edu.tw/en"><img src="/assets/images/as.png" width="100" /></a>
   <a href="http://iis.sinica.edu.tw/"><img src="/assets/images/iis.png" width="100" /></a>
 </p> -->
