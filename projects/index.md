@@ -16,7 +16,9 @@ toc: false
 <p align="left">
 	<a href="https://www.sinica.edu.tw/en"><img src="/assets/images/as.png" width="100" /></a> Academia Sinica
 </p>
-  
+<p align="left">
+	<a href="http://iis.sinica.edu.tw/"><img src="/assets/images/iis.png" width="100" /></a> Institute of Information Science
+</p>
 <!-- 
 <p float="left">
   <a href="https://www.sinica.edu.tw/en"><img src="/assets/images/as.png" width="100" /></a>
