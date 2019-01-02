@@ -26,13 +26,13 @@ Our data is from The Multiparameter Intelligent Monitoring in Intensive Care (MI
 
 ### Preprocess
 Data were included from up to 24 hours preceding the diagnosis of sepsis and until 48 hours following the onset of sepsis. For each patient, clinical data are aggregated into windows of 4 hours as an event. From each event, we extracted patient features as follow:
-  | Features|
+   Features|
   ---
-  |Demographics|
-  |vital signs|
-  |laboratory results|
-  |amount of fluid administration|
-  |amount of UOs|
+  Demographics|
+  vital signs|
+  laboratory results|
+  amount of fluid administration|
+  amount of UOs|
 
 ### Dynamic Change of a Patient’s Condition
 - The dynamic change of a patient’s condition is an important clinical feature event [3], to bring this concept into practice, we extracted **features acquired during the corresponding time window** *(Fc)* as well as **the features of precedent event** *(Fp)*. 
