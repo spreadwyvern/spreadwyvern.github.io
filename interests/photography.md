@@ -4,8 +4,8 @@ layout: single
 author_profile: true
 permalink: /interests/photography/
 header:
-  image: /assets/images/highway.jpg
-  caption: "Long exposure with moving traffics."
+  image: /assets/images/photo_banner.png
+  caption: ""
 toc: true
 
 gallery:
