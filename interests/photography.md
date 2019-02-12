@@ -35,29 +35,29 @@ gallery:
     title: "An unmarked gorge in Iceland with breathtaking view."
   - url: /assets/images/my_photos/machupichu_selfie.jpg
     image_path: /assets/images/my_photos/machupichu_selfie.jpg
-    alt: "An alternate angle of Machu Pichu"
-    title: "An alternate angle of Machu Pichu"
+    alt: "An alternate angle of Machu Pichu."
+    title: "An alternate angle of Machu Pichu."
   - url: /assets/images/my_photos/petra.jpg
     image_path: /assets/images/my_photos/petra.jpg
     alt: "Entance to Petra"
     title: "Entrance to Petra"
   - url: /assets/images/my_photos/stp_beach.jpg
     image_path: /assets/images/my_photos/stp_beach.jpg
-    alt: "Beach in STP"
-    title: "Beach in STP"
+    alt: "Beach in STP."
+    title: "Beach in STP."
   - url: /assets/images/my_photos/mrt_station.jpg
     image_path: /assets/images/my_photos/mrt_station.jpg
     alt: "Rush hour and the security guard."
-    title: "Rush hour and the security guard."
+    title: "Rush hour and the security guard. Taken with iPhone 6."
   - url: /assets/images/my_photos/taipei_101.jpg
     image_path: /assets/images/my_photos/taipei_101.jpg
     alt: "Moonrise of Taipei city."
     title: "Moonrise of Taipei city."
   - url: /assets/images/my_photos/maple_leaf.jpg
     image_path: /assets/images/my_photos/maple_leaf.jpg
-    alt: "A tint of autumn"
-    title: "A tint of autumn"
+    alt: "A tint of autumn."
+    title: "A tint of autumn."
 
 ---
 
-{% include gallery caption="This is a selected gallery." %}
+{% include gallery caption="A few of my photos." %}
