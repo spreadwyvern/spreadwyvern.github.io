@@ -98,5 +98,6 @@ Our model is the first fundamental step toward realizing the potential of transf
 </div>
 
 ### Links
+- [Open access paper on npj Digital Medicine](https://www.nature.com/articles/s41746-019-0104-2)
 - [Link to the slides about the project.](https://docs.google.com/presentation/d/12E7BDb0iw8yRu9tH8eVg-oo3E04Rx9qVv3PDxhAUwTA/edit?usp=sharing)
 - [Github Repository](https://github.com/spreadwyvern/kidney-sonography)
