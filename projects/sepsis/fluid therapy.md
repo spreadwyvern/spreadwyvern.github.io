@@ -10,7 +10,7 @@ toc: true
 ---
 ## Introduction
 Sepsis is a global health problem with high mortality and morbidity. Currently intravenous fluid administration is recommended as the first-line resuscitative therapy for septic shock patients. However, excessive fluid administration could lead to complications like pulmonary edema, renal failure and impaired bowel function, and has been shown to be associated with increased mortality [1].
-*[link to published paper in Computer Methods and Programs in Biomedicine](https://www.sciencedirect.com/science/article/pii/S0169260718318182)
+*[link to published paper in Computer Methods and Programs in Biomedicine](https://www.sciencedirect.com/science/article/pii/S0169260718318182)*
 
 ### Fluid Non-responders and Urine Output
 About 50% of patients with sepsis are actually not responsive to intravenous fluid resuscitation [2]. These “fluid non-responders” are at risk of being harmed by excessive fluid administration.
