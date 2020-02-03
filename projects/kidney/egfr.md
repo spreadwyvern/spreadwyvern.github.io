@@ -79,6 +79,10 @@ To cope with these noises, we developed a "tailored crop" cropping process, base
 ![confusion matrix](/assets/images/kidney/cfm.png "confusion matrix") ![classification result](/assets/images/kidney/cfm_table.png "classification result")
 ![AUROC](/assets/images/kidney/auroc.png "confusion matrix") ![classification result](/assets/images/kidney/auroc_table.png "classification result")
  -->
+### Demonstration
+
+<iframe src="https://drive.google.com/file/d/1ZA_Six_tb08KlZSlzHtbEbx7K01fn_xA/preview" width="640" height="480"></iframe>
+
 ### Conclusion
 Our model is the first fundamental step toward realizing the potential of transforming kidney ultrasound imaging into an effective, real-time, distant screening tool. AI-GFR estimation offers the possibility of non-invasive assessment of kidney function, a key goal of AI-powered functional automation in clinical practice. 
 
@@ -94,5 +98,6 @@ Our model is the first fundamental step toward realizing the potential of transf
 </div>
 
 ### Links
+- [Open access paper on npj Digital Medicine](https://www.nature.com/articles/s41746-019-0104-2)
 - [Link to the slides about the project.](https://docs.google.com/presentation/d/12E7BDb0iw8yRu9tH8eVg-oo3E04Rx9qVv3PDxhAUwTA/edit?usp=sharing)
 - [Github Repository](https://github.com/spreadwyvern/kidney-sonography)
