@@ -124,10 +124,10 @@ However for each channel image there are some borders along the sides which coul
 ### Problem - Emir
 The standard code I use works with most of the images but with exceptions. The photo of the emir of Bukhara, due to different brightness of red and blue channel, the alignment algorithm produced a misaligned photo. My work around is to use the green channel as the reference channel and align the blue and red channel to it. Below we can see the difference of the two methods.
 <figure>
-<img src="assets/images/color_russia/emir_rgb.png" height="300px">
+<img src="/assets/images/color_russia/emir_rgb.png" height="300px">
 <figcaption>align to blue channel</figcaption>
 </figure>
 <figure>
-<img src="assets/images/color_russia/emir_rgb_.png" height="300px">
+<img src="/assets/images/color_russia/emir_rgb_.png" height="300px">
 <figcaption>align to green channel</figcaption>
 </figure>
