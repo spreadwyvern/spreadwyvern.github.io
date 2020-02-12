@@ -32,8 +32,8 @@ The process starts with splitting the raw image in to three separate images repr
 ![bgr image](images/onion_church_rgb.png) -->
 <div class="row">
   <div class="column">
-	<img src="/assets/images/onion_church.png" height="500px">
-	<img src="/assets/images/onion_church_rgb.png" height="300px">
+	<img src="/assets/images/color_russia/onion_church.png" height="500px">
+	<img src="/assets/images/color_russia/onion_church_rgb.png" height="300px">
   </div>
 </div>
 
