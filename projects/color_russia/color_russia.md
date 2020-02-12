@@ -42,7 +42,7 @@ Now here comes the crucial part of reconstructing a color image, since the seper
 
 #### Naive Approach
 Here we can see that by blindly stacking the three channels together produces a weird photo with strange colors and shades.
-![naive approach](images/onion_church_naive.png)
+![naive approach](assets/images/color_russia/onion_church_naive.png)
 
 ### Using SSD or NCC to Align The Images
 A much proper way to align the three channels is to use some metrics to determine what amount of deviation/shift we have to give to a certain channel for it to be better align with another. Some common metrics includes Sum of Squared Differences (SSD) and normalized cross-correlation (NCC).  
@@ -51,71 +51,71 @@ However for each channel image there are some borders along the sides which coul
 <div class="row">
   <div class="column">
   	<figure>
-	<img src="images/cathedral_rgb_s.png"  height="200px">
+	<img src="assets/images/color_russia/cathedral_rgb_s.png"  height="200px">
     <figcaption>R[12, 3], G[5, 2]</figcaption>
 	</figure>
   	<figure>
-	<img src="images/harvesters_rgb_s.png"  height="200px">
+	<img src="assets/images/color_russia/harvesters_rgb_s.png"  height="200px">
     <figcaption>R[128, 16], G[64, 16]</figcaption>
 	</figure>
   	<figure>
-    <img src="images/icon_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/icon_rgb_s.png" height="200px">
     <figcaption>R[96, 16], G[48, 16]</figcaption>
 	</figure>
   </div>
   <div class="column">
   	<figure>
-    <img src="images/onion_church_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/onion_church_rgb_s.png" height="200px">
     <figcaption>R[112, 32], G[48, 32]</figcaption>
 	</figure>
   	<figure>
-    <img src="images/self_portrait_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/self_portrait_rgb_s.png" height="200px">
     <figcaption>R[176, 32], G[80, 32]</figcaption>
 	</figure>
   	<figure>
-    <img src="images/three_generations_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/three_generations_rgb_s.png" height="200px">
     <figcaption>R[112, 16], G[48, 16]</figcaption>
 	</figure>
   </div>	
   <div class="column">
   	<figure>
-    <img src="images/girls_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/girls_rgb_s.png" height="200px">
     <figcaption>R[0, 1], G[-1, 1]</figcaption>
 	</figure>
   	<figure>
-    <img src="images/church_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/church_rgb_s.png" height="200px">
     <figcaption>R[13, -1], G[6, 0]</figcaption>
 	</figure>
   	<figure>
-    <img src="images/melons_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/melons_rgb_s.png" height="200px">
     <figcaption>R[192, 16], G[96, 16]</figcaption>
 	</figure>
   </div>
   <div class='column'>
 	<figure>
-    <img src="images/lady_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/lady_rgb_s.png" height="200px">
     <figcaption>R[112, 16], G[48, 16]</figcaption>
 	</figure>
   	<figure>
-    <img src="images/monastery_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/monastery_rgb_s.png" height="200px">
     <figcaption>R[3, 2], G[-3, 2]</figcaption>
 	</figure>
   	<figure>
-    <img src="images/village_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/village_rgb_s.png" height="200px">
     <figcaption>R[144, 16], G[64, 16]</figcaption>
 	</figure>
   </div>	
   <div class='column'>
   	<figure>
-    <img src="images/tobolsk_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/tobolsk_rgb_s.png" height="200px">
     <figcaption>R[7, 3], G[3, 3]</figcaption>
 	</figure>
   	<figure>
-    <img src="images/workshop_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/workshop_rgb_s.png" height="200px">
     <figcaption>R[112, -16], G[48, 0]</figcaption>
 	</figure>
   	<figure>
-    <img src="images/train_rgb_s.png" height="200px">
+    <img src="assets/images/color_russia/train_rgb_s.png" height="200px">
     <figcaption>R[80, 32], G[48, 0]</figcaption>
 	</figure>
   </div>
@@ -124,10 +124,10 @@ However for each channel image there are some borders along the sides which coul
 ### Problem - Emir
 The standard code I use works with most of the images but with exceptions. The photo of the emir of Bukhara, due to different brightness of red and blue channel, the alignment algorithm produced a misaligned photo. My work around is to use the green channel as the reference channel and align the blue and red channel to it. Below we can see the difference of the two methods.
 <figure>
-<img src="images/emir_rgb.png" height="300px">
+<img src="assets/images/color_russia/emir_rgb.png" height="300px">
 <figcaption>align to blue channel</figcaption>
 </figure>
 <figure>
-<img src="images/emir_rgb_.png" height="300px">
+<img src="assets/images/color_russia/emir_rgb_.png" height="300px">
 <figcaption>align to green channel</figcaption>
 </figure>
