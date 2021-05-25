@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My Personal Page"
+title                    : "AI-Medicine"
 title_separator          : "|"
 name                     : "Lin, Wei-Kai"
 description              : "Personal Records"
@@ -107,7 +107,7 @@ author:
   avatar           : "/assets/images/saotome.jpg"
   bio              : "I am a medical doctor venturing into the world of artificial intelligence."
   location         : "Taiwan"
-  email            : linweikai@iis.sinica.edu.tw
+  email            : u9601404@cmu.edu.tw
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
