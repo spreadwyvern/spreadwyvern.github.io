@@ -1,13 +1,4 @@
----
-title: "Colorizing Russia"
-layout: single
-author_profile: true
-permalink: /projects/color_russia/color_russia/
-header:
-  image: /assets/images/project_banner.png
-  caption: ""
-toc: true
----
+# Colorizing Russia
 In this project I try to reconstruct a color photo from the black and white phots taken by the Russian photographer Sergey Prokudin-Gorsky back in the early 19s.
 
 ## Background
