@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Lin, Wei-Kai"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a MD pushing the limit of medicine and its reach with AI."
   location         : "Taiwan"
   email            :
