@@ -1,11 +1,10 @@
-
 # main links
 main:
- - title: "About Me"
-     url: /about/
- - title: "Projects"
-     url: /projects/
- - title: "Personal Interests"
-     url: /interests/
- - title: "Days in Sao Tome"
-     url: /saotome/
+  - title: "About Me"
+      url: /about/
+  - title: "Projects"
+      url: /projects/
+  - title: "Personal Interests"
+      url: /interests/
+  - title: "Days in Sao Tome"
+      url: /saotome/
