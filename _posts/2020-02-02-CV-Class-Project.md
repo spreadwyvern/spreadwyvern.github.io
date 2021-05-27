@@ -1,3 +1,6 @@
+---
+class: wide
+---
 # Colorizing Russia
 In this project I try to reconstruct a color photo from the black and white phots taken by the Russian photographer Sergey Prokudin-Gorsky back in the early 19s.
 
